@@ -1,6 +1,6 @@
 # 📚 Study Buddy – Your Personalized AI Academic Assistant (Langflow Project)
 
-Study Buddy is an AI-powered assistant built using Langflow. It helps students manage their academic life with features like summarizing notes, generating study plans, answering subject-related questions, and finding high-quality references -- all through simple, natural prompts.
+Study Buddy is an AI-powered assistant built using Langflow. It helps students manage their academic life with features like summarizing notes, generating study plans, answering subject-related questions, and finding high-quality references, all through simple, natural prompts.
 
 ---
 
