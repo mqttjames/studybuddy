@@ -1,6 +1,6 @@
 # 📚 Study Buddy – Your Personalized AI Academic Assistant (Langflow Project)
 
-Study Buddy is an AI-powered assistant built using Langflow. It helps students manage their academic life with features like summarizing notes, generating study plans, answering subject-related questions, and finding high-quality references — all through simple, natural prompts.
+Study Buddy is an AI-powered assistant built using Langflow. It helps students manage their academic life with features like summarizing notes, generating study plans, answering subject-related questions, and finding high-quality references -- all through simple, natural prompts.
 
 ---
 
@@ -10,7 +10,7 @@ This Langflow project uses **Groq** as the model provider and the `moonshotai/ki
 
 ### 🧩 Components Used:
 - **Chat Input**
-- **If-Else Router** (routes commands like `/summarize`, `/plan`, etc.)
+- **If-Else Router** (routes commands like `/summarize`, `/plan`, `/subject`, `/resource` )
 - **Prompt Templates** (for each agent)
 - **Groq Language Model**
 - **Agent Node**
@@ -31,7 +31,7 @@ This Langflow project uses **Groq** as the model provider and the `moonshotai/ki
 ### 🗓️ Planner Agent  
 **Command:** `/plan`  
 **Prompt:**  
-> You are a helpful and organized planning assistant for a student. Based on the user’s `{input}`, do one of the following:
+> You are a helpful and organized planning assistant for a student. Based on the user’s {input}, do one of the following:
 > 
 > 1. If the user wants to create a planner, ask for their subjects, deadlines, and preferred pace. Then generate a simple daily or weekly plan.  
 > 2. If the user asks to add a task, include it in their to-do list or calendar.  
@@ -45,7 +45,7 @@ This Langflow project uses **Groq** as the model provider and the `moonshotai/ki
 ### 📘 Subject Expert + Quiz Generator Agent  
 **Command:** `/subject`  
 **Prompt:**  
-> You are a helpful academic tutor. Based on the following topic or lesson, generate a short 3–5 question quiz to help the student review. Provide multiple-choice options and highlight the correct answer after each question.  
+> You are a helpful academic tutor. Based on the following topic or lesson, create a short quiz to help students review. Provide multiple-choice options and highlight the correct answer after each question.  
 >  
 > Topic: `{input}`
 
@@ -60,7 +60,7 @@ This Langflow project uses **Groq** as the model provider and the `moonshotai/ki
 
 ## 🧠 Expand Study Buddy
 
-If you would like, you can also add more agents that will make your own Study Buddy personalized and even more powerful. I can't stress enough how easy it is to make one — with just a few drag-and-drop components and thoughtful prompts, you can create your own AI-powered academic assistant in minutes.
+If you would like, you can also add more agents to make your own Study Buddy even more personalized and powerful. I can't stress enough how easy it is to make one — with just a few drag-and-drop components and thoughtful prompts, you can create your own AI-powered academic assistant in minutes.
 
 ### 🌟 Example Agent Ideas:
 - 📆 **Exam Countdown Agent**: Tracks days left until your next exam.
