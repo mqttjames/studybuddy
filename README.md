@@ -54,7 +54,7 @@ This Langflow project uses **Groq** as the model provider and the `moonshotai/ki
 ### 🔍 Resource Agent  
 **Command:** `/resource`  
 **Prompt:**  
-> Find three trustworthy academic resources related to: `{input}`. Prioritize peer-reviewed or educational sources. List titles and direct links.
+> Find trustworthy academic resources related to: `{input}`. Prioritize peer-reviewed or educational sources. List titles and direct links.
 
 ---
 
